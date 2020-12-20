@@ -198,10 +198,17 @@ ul {
 .work-team .item {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
+  background: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .work-team .item:nth-child(4n) {
   margin-right: 0;
+}
+
+.card-staff {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .section-team {
@@ -209,14 +216,11 @@ ul {
   background: #f5f4fa;
 }
 
-.card-team {
-  background-color: #ffffff;
-}
-
 .team {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .positions {
@@ -327,6 +331,7 @@ footer {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
+  background: #ffffff;
 }
 
 .examples .item:nth-child(3n) {
