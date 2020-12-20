@@ -10,6 +10,7 @@ body {
   color: var(--title-text-color);
   letter-spacing: 0.03em;
   font-weight: 400;
+  margin: 0;
 }
 
 .list {
@@ -98,7 +99,6 @@ ul {
 .hero {
   text-align: center;
   background: #2f303a;
-  margin-bottom: 94px;
   padding-top: 100px;
   padding-bottom: 180px;
 }
@@ -129,7 +129,12 @@ ul {
 }
 
 .section {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
+}
+
+.section-benefits {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .visualy-hidden {
@@ -184,6 +189,30 @@ ul {
   margin-bottom: 50px;
 }
 
+.work-team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.work-team .item {
+  width: calc((100% - 90px) / 4);
+  margin-right: 30px;
+}
+
+.work-team .item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.section-team {
+  padding-bottom: 94px;
+  background: #f5f4fa;
+}
+
+.card-team {
+  background-color: #ffffff;
+}
+
 .team {
   font-size: 16px;
   line-height: 1.19;
@@ -211,7 +240,7 @@ ul {
 footer {
   background: #2f303a;
   padding-top: 60px;
-  padding-bottom: 90px;
+  padding-bottom: 60px;
 }
 
 .tel {
@@ -297,11 +326,22 @@ footer {
 .examples .item {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
-  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .examples .item:nth-child(3n) {
   margin-right: 0;
+}
+
+.image {
+  display: block;
+  border: 0;
+}
+
+.card {
+  padding-bottom: 20px;
+  border: 1px solid #eeeeee;
+  padding-top: 20px;
 }
 
 .projects-names {
@@ -309,6 +349,9 @@ footer {
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
+  margin-bottom: 4px;
+
+  padding-left: 24px;
 }
 
 .types-work {
@@ -316,4 +359,5 @@ footer {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--paragraph-color);
+  padding-left: 24px;
 }
