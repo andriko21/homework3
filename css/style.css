@@ -214,6 +214,7 @@ ul {
 .section-team {
   padding-bottom: 94px;
   background: #f5f4fa;
+  padding-top: 94px;
 }
 
 .team {
@@ -347,6 +348,7 @@ footer {
   padding-bottom: 20px;
   border: 1px solid #eeeeee;
   padding-top: 20px;
+  padding-left: 24px;
 }
 
 .projects-names {
@@ -355,8 +357,6 @@ footer {
   letter-spacing: 0.06em;
   color: var(--title-text-color);
   margin-bottom: 4px;
-
-  padding-left: 24px;
 }
 
 .types-work {
@@ -364,5 +364,4 @@ footer {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--paragraph-color);
-  padding-left: 24px;
 }
